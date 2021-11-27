@@ -620,3 +620,65 @@ ul{
 
 
 /*==== testmonial css ends ====*/
+
+#membership{
+    padding-bottom: 80px;
+}
+
+#membership .member-item{
+    margin-top: 25px;
+}
+
+#membership .member-item .member-header h4{
+    background:var(--bg1);
+    color: var(--cl1);
+    line-height: 54px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+
+#membership .member-item:hover .member-header h4{
+    background: var(--brand);
+    color: #fff;
+}
+
+#membership .member-price .member-overlay{
+    background: var(--over8);
+}
+
+#membership .member-item .member-features{
+    background: var(--bg2);
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+#membership .member-item .member-features ul li{
+    color: #555555;
+    margin-bottom: 22px;
+}
+
+#membership .member-item .member-features ul li:last-child{
+    margin-bottom: 0;
+}
+
+#membership .member-item .member-btn a{
+    background: var(--bg1);
+    color: var(--cl1);
+    line-height: 30px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+
+#membership .member-item:hover .member-btn a{
+    background: var(--brand);
+    color: #fff;
+}
+
+
+/*==== membership css ends ====*/
