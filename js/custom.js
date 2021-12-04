@@ -15,4 +15,7 @@ $(document).ready(function(){
         slidesToShow: 2,
         dots: true,
     });
+
+    //counter;
+    $('.counter').counterUp();
 });
