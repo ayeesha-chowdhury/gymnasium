@@ -760,3 +760,72 @@ ul{
 
 
 /*==== routine css ends ====*/
+
+#brand{
+    padding-bottom: 80px;
+    position: relative;
+    z-index: 1;
+}
+
+#brand .brand-item{
+    margin: 0 15px;
+}
+
+#brand .slick-list{
+    padding: 5px !important;
+}
+
+#brand .brand-item.slick-center{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+#brand .prev-arrow{
+    color: var(--cl1);
+    cursor: pointer;
+    font-size: 28px;
+    position: absolute;
+    z-index: 999;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+#brand .prev-arrow:hover{
+    color: var(--brand);
+}
+
+#brand .next-arrow{
+    color: var(--cl1);
+    cursor: pointer;
+    font-size: 28px;
+    position: absolute;
+    z-index: 999;
+    right: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+#brand .next-arrow:hover{
+    color: var(--brand);
+}
+
+
+/*==== brand css ends ====*/
