@@ -549,47 +549,473 @@
 
 <!-- funfact starts -->
 <section id="funfact">
+  <div class="funfact-bg">
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-2">
+         <div class="fun-item">
+           <h4 class="mb-0 text-uppercase text-white osw-bold fs-40 counter">261</h4>
+           <p class="mb-0 osw-reg fs-16 text-white text-capitalize">cup of tea</p>
+         </div>
+       </div>
+
+       <div class="col-lg-2">
+         <div class="fun-item text-lg-center">
+           <h4 class="mb-0 text-uppercase text-white osw-bold fs-40 counter">518</h4>
+           <p class="mb-0 osw-reg fs-16 text-white text-capitalize">award win</p>
+          </div>
+       </div>
+
+       <div class="col-lg-4">
+         <div class="fun-item text-lg-center">
+           <h4 class="mb-0 text-uppercase text-white osw-bold fs-40 counter">999</h4>
+           <p class="mb-0 osw-reg fs-16 text-white text-capitalize">happy clients</p>
+         </div>
+       </div>
+
+       <div class="col-lg-2">
+         <div class="fun-item text-lg-center">
+           <h4 class="mb-0 text-uppercase text-white osw-bold fs-40 counter">369</h4>
+           <p class="mb-0 osw-reg fs-16 text-white text-capitalize">course complete</p>
+         </div>
+       </div>
+
+       <div class="col-lg-2">
+         <div class="fun-item text-lg-end">
+           <h4 class="mb-0 text-uppercase text-white osw-bold fs-40 counter">209</h4>
+           <p class="mb-0 osw-reg fs-16 text-white text-capitalize">partner gym</p>
+         </div>
+       </div>
+     </div>
+   </div>
+  </div>
+</section>
+<!-- funfact ends -->
+
+<!-- routine starts -->
+<section id="routine">
+  <header class="section-head text-center">
+    <h3 class="mb-0 text-uppercase osw-reg fs-22">our classes</h3>
+    <img src="images/our-header.png" alt="our-header">
+  </header>
   <div class="container">
-    <div class="row">
-      <div class="col-lg-2">
-        <div class="fun-item">
-          <h4 class="mb-0 text-uppercase text-white osw-bold fs-40 counter">261</h4>
-          <p class="mb-0 osw-reg fs-16 text-white text-capitalize">cup of tea</p>
-        </div>
-      </div>
+    <div class="routine-nav">
+      <ul class="nav nav-tabs border-0" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active text-uppercase osw-reg fs-14 rounded-0 p-0 w-100" id="monday-tab" data-bs-toggle="tab" data-bs-target="#monday" type="button" role="tab" aria-controls="monday" aria-selected="true">monday</button>
+        </li>
 
-      <div class="col-lg-2">
-        <div class="fun-item text-lg-center">
-          <h4 class="mb-0 text-uppercase text-white osw-bold fs-40 counter">518</h4>
-          <p class="mb-0 osw-reg fs-16 text-white text-capitalize">award win</p>
-        </div>
-      </div>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link text-uppercase osw-reg fs-14 rounded-0 p-0 w-100" id="tuesday-tab" data-bs-toggle="tab" data-bs-target="#tuesday" type="button" role="tab" aria-controls="tuesday" aria-selected="false">tuesday</button>
+        </li>
 
-      <div class="col-lg-4">
-        <div class="fun-item text-lg-center">
-          <h4 class="mb-0 text-uppercase text-white osw-bold fs-40 counter">999</h4>
-          <p class="mb-0 osw-reg fs-16 text-white text-capitalize">happy clients</p>
-        </div>
-      </div>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link text-uppercase osw-reg fs-14 rounded-0 p-0 w-100" id="wednesday-tab" data-bs-toggle="tab" data-bs-target="#wednesday" type="button" role="tab" aria-controls="wednesday" aria-selected="false">wednesday</button>
+        </li>
 
-      <div class="col-lg-2">
-        <div class="fun-item text-lg-center">
-          <h4 class="mb-0 text-uppercase text-white osw-bold fs-40 counter">369</h4>
-          <p class="mb-0 osw-reg fs-16 text-white text-capitalize">course complete</p>
-        </div>
-      </div>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link text-uppercase osw-reg fs-14 rounded-0 p-0 w-100" id="thursday-tab" data-bs-toggle="tab" data-bs-target="#thursday" type="button" role="tab" aria-controls="thursday" aria-selected="false">thursday</button>
+        </li>
 
-      <div class="col-lg-2">
-        <div class="fun-item text-lg-end">
-          <h4 class="mb-0 text-uppercase text-white osw-bold fs-40 counter">209</h4>
-          <p class="mb-0 osw-reg fs-16 text-white text-capitalize">partner gym</p>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link text-uppercase osw-reg fs-14 rounded-0 p-0 w-100" id="friday-tab" data-bs-toggle="tab" data-bs-target="#friday" type="button" role="tab" aria-controls="friday" aria-selected="false">friday</button>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <button class="nav-link text-uppercase osw-reg fs-14 rounded-0 p-0 w-100" id="saturday-tab" data-bs-toggle="tab" data-bs-target="#saturday" type="button" role="tab" aria-controls="saturday" aria-selected="false">saturday</button>
+        </li>
+      </ul>
+    </div>
+    <div class="main-routine">
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="monday" role="tabpanel" aria-labelledby="monday-tab">
+          <ul class="ps-0 mb-0 d-flex flex-wrap">
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">yoga</p>
+              <img src="images/yoga.png" alt="yoga">
+              <p class="mb-0 open-reg fs-14">09.00 a.m - 11.00 a.m</p>
+            </li>
+
+            <li class="text-center active">
+              <p class="mb-0 text-capitalize open-reg fs-16">skipping</p>
+              <img src="images/skipping.png" alt="skipping">
+              <p class="mb-0 open-reg fs-14">11.00 a.m - 01.00 p.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">cycling</p>
+              <img src="images/dumbell.png" alt="dumbell">
+              <p class="mb-0 open-reg fs-14">01.00 p.m - 03.00 p.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">boxing</p>
+              <img src="images/boxing.png" alt="boxing">
+              <p class="mb-0 open-reg fs-14">03.00 p.m - 05.00 p.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">back relief</p>
+              <img src="images/back-relf.png" alt="back-relf">
+              <p class="mb-0 open-reg fs-14">05.00 p.m - 07.00 p.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">chin up</p>
+              <img src="images/chin-up.png" alt="chin-up">
+              <p class="mb-0 open-reg fs-14">09.00 p.m - 11.00 p.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">weight lifting</p>
+              <img src="images/weight-lifting.png" alt="weight-lifting">
+              <p class="mb-0 open-reg fs-14">11.00 p.m - 01.00 a.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">weight losing</p>
+              <img src="images/weight-losing.png" alt="weight-losing">
+              <p class="mb-0 open-reg fs-14">01.00 a.m - 03.00 a.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">free hand</p>
+              <img src="images/free-hand.png" alt="free-hand">
+              <p class="mb-0 open-reg fs-14">03.00 a.m - 05.00 a.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">dumbell</p>
+              <img src="images/dumbell.png" alt="dumbell">
+              <p class="mb-0 open-reg fs-14">05.00 a.m - 07.00 a.m</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="tab-pane fade" id="tuesday" role="tabpanel" aria-labelledby="tuesday-tab">
+          <ul class="ps-0 mb-0 d-flex flex-wrap">
+            <li class="text-center active">
+              <p class="mb-0 text-capitalize open-reg fs-16">yoga</p>
+              <img src="images/yoga.png" alt="yoga">
+              <p class="mb-0 open-reg fs-14">09.00 a.m - 11.00 a.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">skipping</p>
+              <img src="images/skipping.png" alt="skipping">
+              <p class="mb-0 open-reg fs-14">11.00 a.m - 01.00 p.m</p>
+            </li>
+
+            <li class="text-center active">
+              <p class="mb-0 text-capitalize open-reg fs-16">cycling</p>
+              <img src="images/dumbell.png" alt="dumbell">
+              <p class="mb-0 open-reg fs-14">01.00 p.m - 03.00 p.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">boxing</p>
+              <img src="images/boxing.png" alt="boxing">
+              <p class="mb-0 open-reg fs-14">03.00 p.m - 05.00 p.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">back relief</p>
+              <img src="images/back-relf.png" alt="back-relf">
+              <p class="mb-0 open-reg fs-14">05.00 p.m - 07.00 p.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">chin up</p>
+              <img src="images/chin-up.png" alt="chin-up">
+              <p class="mb-0 open-reg fs-14">09.00 p.m - 11.00 p.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">weight lifting</p>
+              <img src="images/weight-lifting.png" alt="weight-lifting">
+              <p class="mb-0 open-reg fs-14">11.00 p.m - 01.00 a.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">weight losing</p>
+              <img src="images/weight-losing.png" alt="weight-losing">
+              <p class="mb-0 open-reg fs-14">01.00 a.m - 03.00 a.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">free hand</p>
+              <img src="images/free-hand.png" alt="free-hand">
+              <p class="mb-0 open-reg fs-14">03.00 a.m - 05.00 a.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">dumbell</p>
+              <img src="images/dumbell.png" alt="dumbell">
+              <p class="mb-0 open-reg fs-14">05.00 a.m - 07.00 a.m</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="tab-pane fade" id="wednesday" role="tabpanel" aria-labelledby="wednesday-tab">
+          <ul class="ps-0 mb-0 d-flex flex-wrap">
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">yoga</p>
+              <img src="images/yoga.png" alt="yoga">
+              <p class="mb-0 open-reg fs-14">09.00 a.m - 11.00 a.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">skipping</p>
+              <img src="images/skipping.png" alt="skipping">
+              <p class="mb-0 open-reg fs-14">11.00 a.m - 01.00 p.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">cycling</p>
+              <img src="images/dumbell.png" alt="dumbell">
+              <p class="mb-0 open-reg fs-14">01.00 p.m - 03.00 p.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">boxing</p>
+              <img src="images/boxing.png" alt="boxing">
+              <p class="mb-0 open-reg fs-14">03.00 p.m - 05.00 p.m</p>
+            </li>
+
+            <li class="text-center active">
+              <p class="mb-0 text-capitalize open-reg fs-16">back relief</p>
+              <img src="images/back-relf.png" alt="back-relf">
+              <p class="mb-0 open-reg fs-14">05.00 p.m - 07.00 p.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">chin up</p>
+              <img src="images/chin-up.png" alt="chin-up">
+              <p class="mb-0 open-reg fs-14">09.00 p.m - 11.00 p.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">weight lifting</p>
+              <img src="images/weight-lifting.png" alt="weight-lifting">
+              <p class="mb-0 open-reg fs-14">11.00 p.m - 01.00 a.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">weight losing</p>
+              <img src="images/weight-losing.png" alt="weight-losing">
+              <p class="mb-0 open-reg fs-14">01.00 a.m - 03.00 a.m</p>
+            </li>
+
+            <li class="text-center active">
+              <p class="mb-0 text-capitalize open-reg fs-16">free hand</p>
+              <img src="images/free-hand.png" alt="free-hand">
+              <p class="mb-0 open-reg fs-14">03.00 a.m - 05.00 a.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">dumbell</p>
+              <img src="images/dumbell.png" alt="dumbell">
+              <p class="mb-0 open-reg fs-14">05.00 a.m - 07.00 a.m</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="tab-pane fade" id="thursday" role="tabpanel" aria-labelledby="thursday-tab">
+          <ul class="ps-0 mb-0 d-flex flex-wrap">
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">yoga</p>
+              <img src="images/yoga.png" alt="yoga">
+              <p class="mb-0 open-reg fs-14">09.00 a.m - 11.00 a.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">skipping</p>
+              <img src="images/skipping.png" alt="skipping">
+              <p class="mb-0 open-reg fs-14">11.00 a.m - 01.00 p.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">cycling</p>
+              <img src="images/dumbell.png" alt="dumbell">
+              <p class="mb-0 open-reg fs-14">01.00 p.m - 03.00 p.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">boxing</p>
+              <img src="images/boxing.png" alt="boxing">
+              <p class="mb-0 open-reg fs-14">03.00 p.m - 05.00 p.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">back relief</p>
+              <img src="images/back-relf.png" alt="back-relf">
+              <p class="mb-0 open-reg fs-14">05.00 p.m - 07.00 p.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">chin up</p>
+              <img src="images/chin-up.png" alt="chin-up">
+              <p class="mb-0 open-reg fs-14">09.00 p.m - 11.00 p.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">weight lifting</p>
+              <img src="images/weight-lifting.png" alt="weight-lifting">
+              <p class="mb-0 open-reg fs-14">11.00 p.m - 01.00 a.m</p>
+            </li>
+
+            <li class="text-center active">
+              <p class="mb-0 text-capitalize open-reg fs-16">weight losing</p>
+              <img src="images/weight-losing.png" alt="weight-losing">
+              <p class="mb-0 open-reg fs-14">01.00 a.m - 03.00 a.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">free hand</p>
+              <img src="images/free-hand.png" alt="free-hand">
+              <p class="mb-0 open-reg fs-14">03.00 a.m - 05.00 a.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">dumbell</p>
+              <img src="images/dumbell.png" alt="dumbell">
+              <p class="mb-0 open-reg fs-14">05.00 a.m - 07.00 a.m</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="tab-pane fade" id="friday" role="tabpanel" aria-labelledby="friday-tab">
+          <ul class="ps-0 mb-0 d-flex flex-wrap">
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">yoga</p>
+              <img src="images/yoga.png" alt="yoga">
+              <p class="mb-0 open-reg fs-14">09.00 a.m - 11.00 a.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">skipping</p>
+              <img src="images/skipping.png" alt="skipping">
+              <p class="mb-0 open-reg fs-14">11.00 a.m - 01.00 p.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">cycling</p>
+              <img src="images/dumbell.png" alt="dumbell">
+              <p class="mb-0 open-reg fs-14">01.00 p.m - 03.00 p.m</p>
+            </li>
+
+            <li class="text-center active">
+              <p class="mb-0 text-capitalize open-reg fs-16">boxing</p>
+              <img src="images/boxing.png" alt="boxing">
+              <p class="mb-0 open-reg fs-14">03.00 p.m - 05.00 p.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">back relief</p>
+              <img src="images/back-relf.png" alt="back-relf">
+              <p class="mb-0 open-reg fs-14">05.00 p.m - 07.00 p.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">chin up</p>
+              <img src="images/chin-up.png" alt="chin-up">
+              <p class="mb-0 open-reg fs-14">09.00 p.m - 11.00 p.m</p>
+            </li>
+
+            <li class="text-center active">
+              <p class="mb-0 text-capitalize open-reg fs-16">weight lifting</p>
+              <img src="images/weight-lifting.png" alt="weight-lifting">
+              <p class="mb-0 open-reg fs-14">11.00 p.m - 01.00 a.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">weight losing</p>
+              <img src="images/weight-losing.png" alt="weight-losing">
+              <p class="mb-0 open-reg fs-14">01.00 a.m - 03.00 a.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">free hand</p>
+              <img src="images/free-hand.png" alt="free-hand">
+              <p class="mb-0 open-reg fs-14">03.00 a.m - 05.00 a.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">dumbell</p>
+              <img src="images/dumbell.png" alt="dumbell">
+              <p class="mb-0 open-reg fs-14">05.00 a.m - 07.00 a.m</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="tab-pane fade" id="saturday" role="tabpanel" aria-labelledby="saturday-tab">
+          <ul class="ps-0 mb-0 d-flex flex-wrap">
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">yoga</p>
+              <img src="images/yoga.png" alt="yoga">
+              <p class="mb-0 open-reg fs-14">09.00 a.m - 11.00 a.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">skipping</p>
+              <img src="images/skipping.png" alt="skipping">
+              <p class="mb-0 open-reg fs-14">11.00 a.m - 01.00 p.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">cycling</p>
+              <img src="images/dumbell.png" alt="dumbell">
+              <p class="mb-0 open-reg fs-14">01.00 p.m - 03.00 p.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">boxing</p>
+              <img src="images/boxing.png" alt="boxing">
+              <p class="mb-0 open-reg fs-14">03.00 p.m - 05.00 p.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">back relief</p>
+              <img src="images/back-relf.png" alt="back-relf">
+              <p class="mb-0 open-reg fs-14">05.00 p.m - 07.00 p.m</p>
+            </li>
+
+            <li class="text-center active">
+              <p class="mb-0 text-capitalize open-reg fs-16">chin up</p>
+              <img src="images/chin-up.png" alt="chin-up">
+              <p class="mb-0 open-reg fs-14">09.00 p.m - 11.00 p.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">weight lifting</p>
+              <img src="images/weight-lifting.png" alt="weight-lifting">
+              <p class="mb-0 open-reg fs-14">11.00 p.m - 01.00 a.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">weight losing</p>
+              <img src="images/weight-losing.png" alt="weight-losing">
+              <p class="mb-0 open-reg fs-14">01.00 a.m - 03.00 a.m</p>
+            </li>
+
+            <li class="text-center">
+              <p class="mb-0 text-capitalize open-reg fs-16">free hand</p>
+              <img src="images/free-hand.png" alt="free-hand">
+              <p class="mb-0 open-reg fs-14">03.00 a.m - 05.00 a.m</p>
+            </li>
+
+            <li class="text-center active">
+              <p class="mb-0 text-capitalize open-reg fs-16">dumbell</p>
+              <img src="images/dumbell.png" alt="dumbell">
+              <p class="mb-0 open-reg fs-14">05.00 a.m - 07.00 a.m</p>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- funfact ends -->
-
+<!-- routine ends -->
 
 
 
