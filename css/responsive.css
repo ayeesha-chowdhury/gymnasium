@@ -1,1 +1,473 @@
-/*  */
+/*==== extra small device starts ====*/
+@media (max-width:575px){
+
+/*---- navbar css ----*/
+.navbar .navbar-brand{
+    position: unset !important;
+    padding: 0 20px !important;
+    transform: skew(0deg);
+    -webkit-transform: skew(0deg);
+    -moz-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    -o-transform: skew(0deg);
+}
+
+.navbar .navbar-brand img{
+    transform: skew(0deg);
+    -webkit-transform: skew(0deg);
+    -moz-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    -o-transform: skew(0deg);
+}
+
+.navbar .navbar-toggler{
+    border-color: #fff;
+    margin-right: 10px;
+}
+
+.navbar .navbar-toggler i{
+    color: #fff;
+}
+
+.navbar-light .navbar-nav{
+    background: var(rgba(53, 53, 53, 0.9S));
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link{
+    text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link::before{
+    width: 0%;
+    height: 100%;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover::before{
+    width: 100%;
+}
+/*---- navbar css ----*/
+
+/*---- banner css ----*/
+#banner .bg1 h4::before,
+#banner .bg1 h4::after,
+#banner .bg1 h1::before,
+#banner .bg1 h1::after,
+#banner .bg1 p::before,
+#banner .bg1 p::after
+{
+    display: none;
+}
+
+#banner .banner-item h4{
+    font-size: 24px;
+}
+
+#banner .banner-item h1{
+    font-size: 48px;
+}
+#banner .banner-item p{
+    padding: 0;
+}
+
+/*---- banner css ----*/
+
+/*---- about css ----*/
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#about .about-details p{
+    padding: 0;
+}
+/*---- about css ----*/
+
+/*---- gallery css ----*/
+#gallery{
+    padding-bottom: 50px;
+}
+/*---- gallery css ----*/
+
+/*---- team css ----*/
+#team{
+    padding-bottom: 10px;
+}
+
+#team .team-member{
+    margin-top: 38px;
+}
+/*---- team css ----*/
+
+/*---- testimonial css ----*/
+#testimonial{
+    padding-bottom: 50px;
+}
+/*---- testimonial css ----*/
+
+/*---- membership css ----*/
+#membership{
+    padding-bottom: 50px;
+}
+
+#membership .member-item{
+    margin-bottom: 20px;
+}
+
+#membership .member-item .member-price span{
+    font-size: 40px;
+}
+/*---- membership css ----*/
+
+/*---- funfact css ----*/
+#funfact{
+    padding-bottom: 50px;
+}
+#funfact .fun-item{
+    margin-bottom: 15px;
+}
+
+/*---- funfact css ----*/
+
+/*---- routine css ----*/
+#routine{
+    padding-bottom: 50px;
+}
+#routine .nav-tabs .nav-item{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#routine .main-routine ul li{
+    width: 100%;
+}
+/*---- routine css ----*/
+
+/*---- brand css ----*/
+#brand{
+    padding-bottom: 50px;
+}
+/*---- brand css ----*/
+
+/*---- footer css ----*/
+footer .footer-logo{
+    margin-bottom: 30px !important;
+}
+/*---- footer css ----*/
+
+}
+/*==== extra small device ends ====*/
+
+/*==== small device starts ====*/
+@media (min-width:576px) and (max-width:767px){
+
+/*----navbar css ----*/   
+.navbar .navbar-brand{
+    position: unset !important;
+    padding: 0 20px !important;
+    transform: skew(0deg);
+    -webkit-transform: skew(0deg);
+    -moz-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    -o-transform: skew(0deg);
+}
+
+.navbar .navbar-brand img{
+    transform: skew(0deg);
+    -webkit-transform: skew(0deg);
+    -moz-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    -o-transform: skew(0deg);
+}
+
+.navbar .navbar-toggler{
+    border-color: #e23e38;
+    margin-right: 10px;
+}
+
+.navbar .navbar-toggler i{
+    color: #e23e38;
+}
+
+.navbar-light .navbar-nav{
+    background: var(rgba(53, 53, 53, 0.9S));
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link{
+    text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link::before{
+    width: 0%;
+    height: 100%;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover::before{
+    width: 100%;
+}
+/*----navbar css ----*/    
+
+/*---- banner css ----*/
+#banner .bg1 h4::before,
+#banner .bg1 h4::after,
+#banner .bg1 h1::before,
+#banner .bg1 h1::after,
+#banner .bg1 p::before,
+#banner .bg1 p::after
+{
+    display: none;
+}
+
+#banner .banner-item h4{
+    font-size: 24px;
+}
+
+#banner .banner-item h1{
+    font-size: 48px;
+}
+#banner .banner-item p{
+    padding: 0;
+}
+
+/*---- banner css ----*/
+
+/*---- about css ----*/
+#about{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#about .about-details p{
+    padding: 0;
+}
+/*---- about css ----*/
+
+/*---- gallery css ----*/
+#gallery{
+    padding-bottom: 60px;
+}
+/*---- gallery css ----*/
+
+/*---- team css ----*/
+#team{
+    padding-bottom: 10px;
+}
+
+#team .team-member{
+    margin-top: 38px;
+}
+/*---- team css ----*/
+
+/*---- testimonial css ----*/
+#testimonial{
+    padding-bottom: 60px;
+}
+/*---- testimonial css ----*/
+
+/*---- membership css ----*/
+#membership{
+    padding-bottom: 60px;
+}
+
+#membership .member-item{
+    margin-bottom: 20px;
+}
+
+/*---- membership css ----*/
+
+/*---- funfact css ----*/
+#funfact{
+    padding-bottom: 50px;
+}
+
+/*---- funfact css ----*/
+
+/*---- routine css ----*/
+#routine{
+    padding-bottom: 60px;
+}
+#routine .nav-tabs .nav-item{
+    width: 49%;
+    margin: 2px;
+}
+
+#routine .main-routine ul li{
+    width: 50%;
+}
+/*---- routine css ----*/
+
+/*---- brand css ----*/
+#brand{
+    padding-bottom: 60px;
+}
+/*---- brand css ----*/
+
+/*---- footer css ----*/
+footer .footer-logo{
+    margin-bottom: 30px !important;
+}
+
+footer .footer-copy .copyright p{
+    text-align: center;
+}
+/*---- footer css ----*/
+
+}
+/*==== small device ends ====*/
+
+/*==== medeium device ====*/
+@media (min-width:768px) and (max-width:991px){
+
+/*----navbar css ----*/   
+.navbar .navbar-brand{
+    position: unset !important;
+    padding: 0 20px !important;
+    transform: skew(0deg);
+    -webkit-transform: skew(0deg);
+    -moz-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    -o-transform: skew(0deg);
+}
+
+.navbar .navbar-brand img{
+    transform: skew(0deg);
+    -webkit-transform: skew(0deg);
+    -moz-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    -o-transform: skew(0deg);
+}
+
+.navbar .navbar-toggler{
+    border-color: #e23e38;
+    margin-right: 10px;
+}
+
+.navbar .navbar-toggler i{
+    color: #e23e38;
+}
+
+.navbar-light .navbar-nav{
+    background: var(rgba(53, 53, 53, 0.9S));
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link{
+    text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link::before{
+    width: 0%;
+    height: 100%;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover::before{
+    width: 100%;
+}
+/*----navbar css ----*/    
+
+/*---- banner css ----*/
+#banner .bg1 h4::before,
+#banner .bg1 h4::after,
+#banner .bg1 h1::before,
+#banner .bg1 h1::after,
+#banner .bg1 p::before,
+#banner .bg1 p::after
+{
+    display: none;
+}
+
+#banner .banner-item h4{
+    font-size: 24px;
+}
+
+#banner .banner-item h1{
+    font-size: 48px;
+}
+#banner .banner-item p{
+    padding: 0;
+}
+
+/*---- banner css ----*/
+
+/*---- about css ----*/
+#about{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#about .about-details p{
+    padding: 0;
+}
+/*---- about css ----*/
+
+/*---- gallery css ----*/
+#gallery{
+    padding-bottom: 60px;
+}
+/*---- gallery css ----*/
+
+/*---- team css ----*/
+#team{
+    padding-bottom: 10px;
+}
+
+#team .team-member{
+    margin-top: 38px;
+}
+/*---- team css ----*/
+
+/*---- testimonial css ----*/
+#testimonial{
+    padding-bottom: 60px;
+}
+/*---- testimonial css ----*/
+
+/*---- membership css ----*/
+#membership{
+    padding-bottom: 60px;
+}
+
+#membership .member-item{
+    margin-bottom: 20px;
+}
+
+/*---- membership css ----*/
+
+/*---- funfact css ----*/
+#funfact{
+    padding-bottom: 50px;
+}
+
+/*---- funfact css ----*/
+
+/*---- routine css ----*/
+#routine{
+    padding-bottom: 60px;
+}
+#routine .nav-tabs .nav-item{
+    width: 49%;
+    margin: 2px;
+}
+
+#routine .main-routine ul li{
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/*---- routine css ----*/
+
+/*---- brand css ----*/
+#brand{
+    padding-bottom: 60px;
+}
+/*---- brand css ----*/
+
+/*---- footer css ----*/
+footer .footer-logo{
+    margin-bottom: 30px !important;
+}
+
+footer .footer-copy .copyright p{
+    text-align: center;
+}
+/*---- footer css ----*/
+
+}
+/*==== medeium device ====*/
